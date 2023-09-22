@@ -15,6 +15,9 @@ CV de Milan PAREKH, étudiant de lycée Turgot en BTS Informatique Cybersécurit
 - VMWare
 ### Réseau
 - Cisco Packet Tracer
+### Economie Droit Management
+- RGPD
+- Les agents économique
 ### Langues
 - Français
 - Anglais B1
