@@ -11,7 +11,6 @@ CV de Milan PAREKH, étudiant de lycée Turgot en BTS Informatique Cybersécurit
 - Administration de Système Linux
 - Git
 ### Virtualization
-- Virutalization
 - VirtualBox
 - VMWare
 ### Réseau
