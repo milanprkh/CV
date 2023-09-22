@@ -1,8 +1,18 @@
 # CV
 CV de Milan PAREKH, étudiant de lycée Turgot en BTS Informatique Cybersécurité
 ## Compétences
-Je suis en BTS SIO 1A au lycée Turgot à Paris.
+- PHP
+- HTML
+- CSS
+- Python
+- SQL
 ### systeme
-- windows server
-- linux
-- V2X
+- Administration de Système Windows
+- Administration de Système Linux
+- Git
+### Virtualization
+- Virutalization
+- VirtualBox
+- VMWare
+### Réseau
+- Cisco Packet Tracer
