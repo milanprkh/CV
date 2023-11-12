@@ -1,53 +1,102 @@
-<html>
-    <head>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Nom - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
 
-    </head>
-    <body>
-<h1> CV </h1>
-<img src="photo.jpg" alt="Mbappé" width="300" height="300">
-<p>CV de Milan P, étudiant de en Informatique Cybersécurité</p>
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
 
-<h2>Développement</h2> 
-<ul>
-    <li>PHP</li>
-    <li>HTLK</li>
-    <li>CSS</li>
-    <li>Python</li>
-    <li>SQL</li>
-</ul>
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-<h3>Système</h3>
-<ul>
-    <li>Administration de Système Windows</li>
-    <li>Administration de Système Linux</li>
-    <li>Git</li>
-</ul>
+        h1,
+        h2,
+        h3 {
+            color: #333;
+        }
 
-<h4>Virtualization</h4>
-<ul>
-    <li>VirtualBox</li>
-    <li>VMWare</li>
-</ul>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
 
-<h5>Réseau</h5>
-<ul>
-    <li>Cisco Packet Tracer</li>
-</ul>
+        ul li {
+            margin-bottom: 10px;
+        }
 
-<h6>Economie Droit Management</h6>
-<ul>
-    <li>RGPD</li>
-    <li>Les agents économique</li>
-</ul>
+        .education,
+        .experience {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
 
-<h6>Langues</h6>
-<ul>
-    <li>Français</li>
-    <li>Anglais B1</li>
-    <li>Espagnol A2</li>
-</ul>
+<body>
+    <header>
+        <h1>Votre Nom</h1>
+        <p>Développeur Web</p>
+    </header>
 
+    <section>
+        <h2>À propos de moi</h2>
+        <p>Brief description about yourself goes here.</p>
+    </section>
 
+    <section class="education">
+        <h2>Éducation</h2>
+        <ul>
+            <li><strong>Master en Informatique</strong> - Nom de l'Université, Année</li>
+            <li><strong>Licence en Sciences Informatiques</strong> - Nom de l'Université, Année</li>
+        </ul>
+    </section>
+
+    <section class="experience">
+        <h2>Expérience professionnelle</h2>
+        <ul>
+            <li>
+                <strong>Développeur Web</strong> - Nom de l'Entreprise, Date de début - Date de fin
+                <p>Description des responsabilités et réalisations.</p>
+            </li>
+            <!-- Ajoutez d'autres expériences professionnelles ici -->
+        </ul>
+    </section>
+
+    <section>
+        <h2>Compétences techniques</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Framework Front-end (par exemple, React, Angular)</li>
+            <li>Langages Back-end (par exemple, Node.js, Python)</li>
+            <li>Bases de données (par exemple, MySQL, MongoDB)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email: votre@email.com</p>
+        <p>Téléphone: +33 1 23 45 67 89</p>
+        <p>Site Web: www.votre-site.com</p>
+    </section>
 </body>
+
 </html>
